@@ -6,8 +6,8 @@ def load_library(yaml_file)
   
   library.each do |meaning,emoticons|
     library[meaning] = {
-      :english => [emoticons[0]],
-      :japanese => [emoticons[1]]
+      :english => emoticons[0],
+      :japanese => emoticons[1]
     }
   end
   library
