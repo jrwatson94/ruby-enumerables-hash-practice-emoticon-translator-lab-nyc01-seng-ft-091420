@@ -14,6 +14,7 @@ def load_library(yaml_file)
 end
 
 def get_english_meaning(yaml_file,emoticon)
+  library = {}
   library = load_library(yaml_file)
   
   libary.each do |meaning, languages|
