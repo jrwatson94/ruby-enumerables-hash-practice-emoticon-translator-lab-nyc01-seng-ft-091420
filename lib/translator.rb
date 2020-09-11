@@ -12,4 +12,7 @@ def load_library(yaml_file)
   end
   library
 end
+
+def english_meaning(yaml_file,emoticon)
+  library = load_library(yaml_file)
   
