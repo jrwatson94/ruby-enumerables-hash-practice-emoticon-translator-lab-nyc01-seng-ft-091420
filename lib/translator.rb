@@ -19,7 +19,7 @@ def get_english_meaning(yaml_file,emoticon)
   
   library.each do |meaning, languages|
     binding.pry
-    if emoticon == meaning[:japanese]
+    if emoticon == library[meaning][:japanese]
       return meaning[:english]
     else
       puts "Sorry, the emoticon was not found."
