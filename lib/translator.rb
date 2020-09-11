@@ -23,6 +23,7 @@ def get_english_meaning(yaml_file,emoticon)
       translation = meaning
     end
   end
+  binding.pry
   if translation == nil
     puts "Sorry, that emoticon was not found."
   else
