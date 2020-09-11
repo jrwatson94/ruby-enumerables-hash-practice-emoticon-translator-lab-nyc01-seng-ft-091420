@@ -38,7 +38,7 @@ def get_japanese_emoticon(yaml_file,emoticon)
   translation = nil
   library.each do |meaning, languages|
     if emoticon == library[meaning][:english]
-      translation = meaning[:japanese]
+      translation = library[meaning][:japanese]
     end
   end
   if translation != nil
