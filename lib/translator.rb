@@ -10,6 +10,7 @@ def load_library(file)
       :japanese => [emoticons[1]]
     }
   end
+  end
   library
 end
   
